@@ -1,0 +1,77 @@
+@font-face {
+	font-family: FOS;
+	src: url('../fonts/fontawesome-webfont.ttf');
+}
+*{
+	font-family: 'Roboto', 'Open Sans', 'fas', sans-serif;
+}
+body{
+	background: url('../images/login_bg.jpg');
+	padding: 4% 10%;
+	color: #fff;
+}
+main{
+	background: rgba(255, 255, 255, 0.2);
+	padding: 5% 10%;
+	border-radius: 10px;
+}
+legend{
+	color: #fff;
+	font-size: 36px;
+	border-bottom: none;
+}
+.btn-login{
+	border: 2px solid #fff;
+	background: none;
+	font-weight: 500;
+}
+.btn-login:hover{
+	color: #fff;
+}
+.form-control{
+	display: block;
+	padding: 0;
+	background: none;
+	border-color: #fff;
+	border: none;
+	border-bottom: 3px solid grey;
+	border-radius: 0;
+	box-shadow: none;
+	color: #fff;
+}
+.form-control:focus{
+	border-color: #fff;
+	box-shadow: none;
+	caret-color: #fff;
+}
+.form-control:focus::placeholder{
+	opacity: 0;
+}
+.form-control::placeholder{
+	color: #fff;
+}
+.form-group{
+	margin-bottom: 40px;
+}
+.bor{
+	position: relative;
+}
+.bor:after, .bor:before{
+	position: absolute;
+	display: block;
+	bottom: 0;
+	content: ' ';
+	background: #fff;
+	height: 3px;
+	width: 0;
+	transition: width 1s;
+}
+.bor:after{
+	right: 50%;
+}
+.bor:before{
+	left: 50%;
+}
+.bor:hover:after, .bor:hover:before{
+	width: 50%;
+}

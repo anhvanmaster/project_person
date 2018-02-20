@@ -1,0 +1,22 @@
+@font-face {
+	font-family: FOS;
+	src: url('../fonts/fontawesome-webfont.ttf');
+}
+*{
+	font-family: 'Roboto', 'Open Sans', 'fas', sans-serif;
+}
+body.login-index{
+	background: #2196f3;
+	padding: 4% 10%;
+}
+.login{
+	background: #fff;
+	padding: 10%;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 4px #292F33;
+}
+.login legend{
+	color: #2196f3;
+	font-size: 36px;
+	border-bottom: 2px solid #2196f3;
+}
